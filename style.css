@@ -4,7 +4,7 @@ body {
  background: url(pages/images/yoi.png) 50% 50% no-repeat, 
              url(pages/images/bg.png) 50% 50% no-repeat, 
              url(pages/images/ice.jpg) fixed repeat;
- background-size: 700px, 1100px, 100%;
+ background-size: 700px, 1100px, 1920px;
  margin: 360px;
 }
 
