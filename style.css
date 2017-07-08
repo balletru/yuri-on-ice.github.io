@@ -1,0 +1,225 @@
+/*ВСЕ СТРАНИЦЫ*/
+/*Фон*/
+body {
+ background: url(pages/images/yoi.png) 50% 50% no-repeat, 
+             url(pages/images/bg.png) 50% 50% no-repeat, 
+             url(pages/images/ice.jpg) center center no-repeat fixed;
+ background-size: 700px, 1100px, cover;
+ margin: 360px;
+}
+
+
+/*Таблицы*/
+table {
+ position: absolute;
+ width: 900px;
+ left: 50%;
+ margin-left: -460px;
+}
+
+/*Навигация*/
+.tbl1 {
+ margin-top: 10px;
+ border-radius: 40px;
+ background: #e8f6ff;	
+ border: 3px solid #21b5e0;
+}
+
+/*Лента*/
+.tbl2 {
+ margin-top: 95px;
+ background: #ffffff;
+ border: 4px double #21b5e0;
+}
+
+ /*Копирайт*/
+.copy {
+ position: absolute;
+ width: 900px;
+ left: 50%;
+ margin-left: -100px;
+ color: #004d90;
+}
+
+/*Ссылки*/
+a {
+ text-decoration: none; 
+ color: #0185e5;
+}
+
+/*Заголовки*/
+h2 {
+ text-indent: 20px; 
+ color: #1b87d4; 
+ text-align: center;
+}
+
+h3 {
+ text-align: center;
+ color: #1b87d4;
+}
+
+/*Списки*/
+li {
+ text-indent: 10px; 
+ color: #00c4ff; 
+ list-style-type: none;
+ font-size: 120%;
+ margin-right: 30px;
+}
+
+ /*Вензеля на всех страницах*/
+.fig {
+    text-align: center;
+}
+
+/*Прелоадер */
+#p_prldr{
+position: fixed;
+left: 0;
+top: 0;
+right:0;
+bottom:0;
+background: white;
+z-index: 30;}
+
+.anm {
+text-align: center;
+ margin-top: 400px;
+}
+
+/*ГЛАВНАЯ*/
+/*Линия на главной*/
+hr {
+ width: 475px;
+ text-align: left; 
+ margin: 0 auto 0 0;
+ margin-left: 35px;
+ height: 2px;
+ color: #3ea3d8;
+ background-color: #3ea3d8;
+ border: none;
+}
+
+img.poster {
+	padding: 20px;
+	width: 35%;
+	float: right;
+}
+
+/*РАЗДЕЛ ВИДЕО*/
+/*Линия на других страницах*/
+.hr {
+ width: 800px;
+ text-align: left; 
+ margin: 0 auto 0 0;
+ margin-left: 35px;
+ height: 2px;
+ color: #3ea3d8;
+ background-color: #3ea3d8;
+ border: none;
+}
+
+/*Вензеля в разделе видео*/
+.fig2 {
+	float: left;
+	margin: 250px 0px 20px -500px;
+}
+
+/*Копирайт в разделе видео*/
+.copy2 {
+ position: absolute;
+ width: 900px;
+ left: 50%;
+ margin-left: -100px;
+ margin-top: 770px;
+ color: #004d90;
+}
+
+/*Кнопки*/
+nav.page ul {
+	text-align: right;
+    margin-top: -45px;
+}
+nav.page ul li {
+	display: inline;
+	margin: 0 50px 0px -40px;
+}
+nav.page ul li a {
+	padding: 5px 5px;
+	font-size: 17px;
+	font-weight: bold;
+	border: 1px solid #ddd;
+    background: #fff;
+	border-radius: 20px;
+}
+nav.page ul li a:hover,
+nav.page ul li a:focus {
+	background: #f0f0f0;
+	border-color: #ccc;
+}
+nav.page ul li a:active {
+	background: #fff;
+	border-color: #ddd;
+}
+
+/*Видео*/
+iframe.sizeseries {
+ margin-top: 1px;
+ width: 785px;
+ height: 442px;
+}
+
+/*Иконки серий*/
+.series {
+ width: 160px;
+}
+
+/*Оформление иконок серий*/
+figure {
+ float: left; 
+ border: 2px solid #00baff; 
+ padding: 5px; 
+ margin: 26px 0 10px 35px; 
+ background: #cce9f0;  
+ color: #1b87d4;
+ border-radius: 6px;
+}
+
+/*РАЗДЕЛ МУЗЫКИ*/
+/*Музыка и гифки справа*/
+.gifsounds {
+	margin-right: 35px;
+	float: right;
+}
+
+/*Вензеля в разделе музыки*/
+.fig3 {
+	margin: 50px 0px 20px 350px;
+}
+
+/*Копирайт в разделе музыки*/
+.copy3 {
+ position: absolute;
+ width: 900px;
+ left: 50%;
+ margin-left: -100px;
+ margin-top: 20px;
+ color: #004d90;
+}
+
+/*Счетчик на главной*/
+.live {
+ position: absolute;
+margin: 50px 0px 20px 350px;
+ left: 50%;
+ margin-left: -50px;
+}
+
+/*Счетчик в сериях*/
+.live2 {
+ position: absolute;
+ left: 50%;
+ margin-left: -100px;
+ margin: 800px 0px 20px -40px;
+}
