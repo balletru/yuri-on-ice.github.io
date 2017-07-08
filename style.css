@@ -3,7 +3,7 @@
 body {
  background: url(pages/images/yoi.png) 50% 50% no-repeat, 
              url(pages/images/bg.png) 50% 50% no-repeat, 
-             url(pages/images/ice.jpg) fixed center top;
+             url(pages/images/ice.jpg) fixed;
  background-size: 700px, 1100px, cover;
  margin: 360px;
 }
